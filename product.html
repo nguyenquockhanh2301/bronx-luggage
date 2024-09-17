@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - Bronx Luggage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/products.js" defer></script> <!-- JavaScript to handle product details -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="index.html" id="home-link">Home</a>
+        <h1>Bronx Luggage</h1>
+    </header>
+
+    <!-- Main content area for product details -->
+    <main id="product-details">
+        <div id="product-content">
+            <!-- JavaScript will populate this area -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bronx Luggage. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Assuming the product data comes from the same product.js (used in categories)
+        const products = {
+            "hardside": [
+                {
+                    "id": 1,
+                    "name": "Polycarbonate Hard Case",
+                    "price": 129.99,
+                    "description": "Durable polycarbonate hard case with 4 wheels for easy mobility.",
+                    "remaining": 10,
+                    "image": "images/hardside1.jpg"
+                },
+                // Other hardside products...
+            ],
+            // Other categories...
+        };
+
+        // Extract the product ID from the query parameters (e.g., product.html?id=1&category=hardside)
+        const params = new URLSearchParams(window.location.search);
+        const productId = parseInt(params.get('id'));
+        const category = params.get('category');
+
+        // Find the product in the correct category
+        const product = products[category].find(p => p.id === productId);
+
+        if (product) {
+            // Populate the product content dynamically
+            const productContent = `
+                <div class="product-details-container">
+                    <div class="product-image">
+                        <img src="${product.image}" alt="${product.name}">
+                    </div>
+                    <div class="product-info">
+                        <h2>${product.name}</h2>
+                        <p><strong>Price:</strong> $${product.price.toFixed(2)}</p>
+                        <p><strong>Description:</strong> ${product.description}</p>
+                        <p><strong>Remaining stock:</strong> ${product.remaining}</p>
+                        <a href="cart.html" class="add-to-cart-button">Add to Cart</a>
+                    </div>
+                </div>
+            `;
+            document.getElementById('product-content').innerHTML = productContent;
+        } else {
+            // Handle case where product is not found
+            document.getElementById('product-content').innerHTML = '<p>Product not found.</p>';
+        }
+    </script>
+</body>
+</html>

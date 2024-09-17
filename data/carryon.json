@@ -1,0 +1,39 @@
+{
+    "category": "Carry-on",
+    "description": "Carry-on luggage is designed to be small enough to bring onto an airplane and stow in the overhead locker. The term encompasses all luggage styles, including suitcases, backpacks, and weekenders.",
+    "products": [
+      {
+        "id": 13,
+        "name": "Samsonite Freeform Carry-On",
+        "description": "A lightweight, durable carry-on suitcase with expandable capacity.",
+        "price": 120.00,
+        "quantity": 15,
+        "image": "images/samsonite-freeform.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Away Carry-On",
+        "description": "Sleek and modern, designed for frequent flyers.",
+        "price": 225.00,
+        "quantity": 10,
+        "image": "images/away-carryon.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Briggs & Riley Rhapsody",
+        "description": "Stylish and spacious, this carry-on is perfect for weekend getaways.",
+        "price": 300.00,
+        "quantity": 5,
+        "image": "images/briggs-rhapsody.jpg"
+      },
+      {
+        "id": 16,
+        "name": "AmazonBasics Softside Carry-On",
+        "description": "Affordable, lightweight softside carry-on with ample storage.",
+        "price": 55.00,
+        "quantity": 25,
+        "image": "images/amazonbasics-softside.jpg"
+      }
+    ]
+  }
+  

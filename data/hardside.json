@@ -1,0 +1,39 @@
+{
+    "category": "Hardside",
+    "description": "Hardside luggage — AKA hard luggage or hard-shell luggage — refers to its sturdy, non-flexible shell. The ideal exterior material is polycarbonate, a thermoplastic polymer famed for its lightweight nature and impressive durability. Cheaper ABS plastics provide less protection at a lower cost, while aluminium offers optimal strength with added weight and expense.",
+    "products": [
+      {
+        "id": 1,
+        "name": "Samsonite Winfield 3 DLX",
+        "description": "Durable and lightweight polycarbonate shell with a sleek design.",
+        "price": 180.00,
+        "quantity": 12,
+        "image": "images/samsonite-winfield.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Delsey Paris Helium Aero",
+        "description": "Hard-shell suitcase with aluminum finish for extra protection.",
+        "price": 200.00,
+        "quantity": 8,
+        "image": "images/delsey-helium.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Tumi V3 Expandable",
+        "description": "High-end polycarbonate hardside luggage with extra space.",
+        "price": 350.00,
+        "quantity": 5,
+        "image": "images/tumi-v3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "AmazonBasics Hardside Spinner",
+        "description": "Affordable yet durable hardside luggage with spinner wheels.",
+        "price": 90.00,
+        "quantity": 20,
+        "image": "images/amazonbasics-spinner.jpg"
+      }
+    ]
+  }
+  

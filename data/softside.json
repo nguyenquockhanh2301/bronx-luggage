@@ -1,0 +1,39 @@
+{
+    "category": "Softside",
+    "description": "Soft-side luggage has malleable fabric in the outer shell to contort into confined spaces. The best materials include durable woven nylon, ballistic nylon, and ripstop nylon.",
+    "products": [
+      {
+        "id": 5,
+        "name": "TravelPro Maxlite Softside",
+        "description": "Lightweight nylon softside luggage perfect for short trips.",
+        "price": 130.00,
+        "quantity": 18,
+        "image": "images/travelpro-maxlite-softside.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Briggs & Riley Baseline",
+        "description": "Elegant softside luggage with plenty of interior storage.",
+        "price": 300.00,
+        "quantity": 10,
+        "image": "images/briggs-baseline.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Samsonite Solyte DLX",
+        "description": "Softside luggage with easy-glide wheels and expandable compartments.",
+        "price": 220.00,
+        "quantity": 14,
+        "image": "images/samsonite-solyte.jpg"
+      },
+      {
+        "id": 8,
+        "name": "American Tourister Fieldbrook II",
+        "description": "Affordable softside luggage, perfect for budget travelers.",
+        "price": 75.00,
+        "quantity": 25,
+        "image": "images/american-tourister-fieldbrook.jpg"
+      }
+    ]
+  }
+  

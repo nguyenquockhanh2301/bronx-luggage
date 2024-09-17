@@ -1,0 +1,39 @@
+{
+    "category": "Duffel",
+    "description": "The duffel bag is an affordable yet heavy-duty, soft-side luggage type, sold with or without wheels. Both types have a tough outer layer like ripstop nylon or canvas.",
+    "products": [
+      {
+        "id": 9,
+        "name": "North Face Base Camp Duffel",
+        "description": "Durable non-wheeled duffel, great for rugged adventures.",
+        "price": 140.00,
+        "quantity": 20,
+        "image": "images/northface-duffel.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Patagonia Black Hole Duffel",
+        "description": "Eco-friendly duffel with spacious compartments.",
+        "price": 160.00,
+        "quantity": 15,
+        "image": "images/patagonia-blackhole.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Eagle Creek Cargo Hauler",
+        "description": "Compact and lightweight, perfect for weekend trips.",
+        "price": 100.00,
+        "quantity": 18,
+        "image": "images/eaglecreek-cargo.jpg"
+      },
+      {
+        "id": 12,
+        "name": "REI Co-op Roadtripper Duffel",
+        "description": "Budget-friendly duffel for short road trips or gym sessions.",
+        "price": 60.00,
+        "quantity": 30,
+        "image": "images/rei-roadtripper.jpg"
+      }
+    ]
+  }
+  
